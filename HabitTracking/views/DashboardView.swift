@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DashboardView: View {
     var body: some View {
         ScrollView {
             LazyVStack {
-                
+                Text("Dashboard")
             }
         }
     }
 }
 
 #Preview {
-    ContentView()
+    DashboardView()
 }
